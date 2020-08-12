@@ -8,3 +8,6 @@ Wenn man eine PDF-Datei hat, in der 3 Seiten sind und beispielsweise die 3. Seit
 Wenn man eine PDF-Datei hat, in der 9 Seiten sind man aber beispielsweise nur die ersten 3 Seiten haben möchte, dann geht das so:
 
 ~/bin/pdf-seiten_umsortieren.sh unsortiert.pdf 1 2 3
+
+Das Skript wurde mit GPL Ghostscript 9.52 und pdf2ps getestet.
+Es lief im August 2020 auf der aktuellsten Version von Linux Ubuntu 18.04, FreeBSD 12.1 und im "Windows Subsystem for Linux (WSL)".
